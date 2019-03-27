@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string-array name="acion">
+        <item>Mission Impossible: Fallout</item>
+        <item>Rampage</item>
+        <item>Jurassic World: Fallen Kingdom</item>
+        <item>Sky Scrapper</item>
+        <item>The Meg</item>
+    </string-array>
+
+    <string-array name="superhero">
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Dead Pool 2</item>
+        <item>Ant Man and the Wasp</item>
+    </string-array>
+
+    <string-array name="animation">
+        <item>Incredibles 2</item>
+        <item>Hotel Transylvania 3</item>
+        <item>Peter Rabit</item>
+    </string-array>
+
+    <string-array name="miTime">
+        <item>10:30 am</item>
+        <item>12:00 pm</item>
+        <item>1:00 pm</item>
+        <item>3:30 pm</item>
+    </string-array>
+
+    <string-array name="rampageTime">
+        <item>9:30 am</item>
+        <item>12:15 pm</item>
+        <item>2:00 pm</item>
+        <item>4:00 pm</item>
+    </string-array>
+
+    <string-array name="jurassicTime">
+        <item>11:40 am</item>
+        <item>1:30 pm</item>
+        <item>7:00 pm</item>
+        <item>9:00 pm</item>
+    </string-array>
+
+    <string-array name="skyTime">
+        <item>9:30 am</item>
+        <item>11:00 pm</item>
+        <item>1:15 pm</item>
+        <item>6:30 pm</item>
+        <item>10:00 pm</item>
+    </string-array>
+
+    <string-array name="megTime">
+        <item>10:30 am</item>
+        <item>11:00 pm</item>
+        <item>1:30 pm</item>
+        <item>7:00 pm</item>
+        <item>9:00 pm</item>
+    </string-array>
+
+    <string-array name="aquaTime">
+        <item>11:30 am</item>
+        <item>12:00 pm</item>
+        <item>1:40 pm</item>
+        <item>5:30 pm</item>
+        <item>7:30 pm</item>
+    </string-array>
+
+    <string-array name="avengersTime">
+        <item>12:00 pm</item>
+        <item>2:30 pm</item>
+        <item>3:30 pm</item>
+        <item>7:45 pm</item>
+        <item>8:30 pm</item>
+    </string-array>
+
+    <string-array name="deadTime">
+        <item>11:00 am</item>
+        <item>1:30 pm</item>
+        <item>7:00 pm</item>
+        <item>8:30 pm</item>
+    </string-array>
+
+    <string-array name="antTime">
+        <item>10:45 am</item>
+        <item>12:20 pm</item>
+        <item>3:30 pm</item>
+        <item>7:15 pm</item>
+        <item>9:30 pm</item>
+    </string-array>
+
+    <string-array name="incrediblesTime">
+        <item>10:00 am</item>
+        <item>1:45 pm</item>
+        <item>3:30 pm</item>
+    </string-array>
+
+    <string-array name="hotelTime">
+        <item>12:00 pm</item>
+        <item>1:00 pm</item>
+        <item>3:30 pm</item>
+        <item>4:30 pm</item>
+    </string-array>
+
+    <string-array name="peterTime">
+        <item>11:15 am</item>
+        <item>1:30 pm</item>
+        <item>3:00 pm</item>
+        <item>7:30 pm</item>
+    </string-array>
+
+
+</resources>

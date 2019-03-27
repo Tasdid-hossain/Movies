@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieDetails"><android.support.constraint.Guideline
+    android:id="@+id/guideline"
+    android:layout_width="11dp"
+    android:layout_height="match_parent"
+    app:layout_constraintGuide_percent=".1"
+    android:orientation="vertical"/>
+
+    <TextView
+        android:id="@+id/movie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOVIE"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerMovie"
+        android:layout_width="300dp"
+        android:textAlignment="center"
+        android:background="@drawable/back"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/movie"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        android:padding="20dp" />
+
+    <ImageView
+        android:id="@+id/maskImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@color/colorPrimaryDark"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/spinnerMovie"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rating"
+        android:padding="10dp"
+        app:layout_constraintLeft_toRightOf="@id/maskImage"
+        app:layout_constraintTop_toBottomOf="@id/spinnerMovie"/>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="duration"
+        android:padding="10dp"
+        app:layout_constraintLeft_toRightOf="@id/maskImage"
+        app:layout_constraintTop_toBottomOf="@id/rating"/>
+
+    <TextView
+        android:id="@+id/cast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cast"
+        android:padding="10dp"
+        app:layout_constraintLeft_toRightOf="@id/maskImage"
+        app:layout_constraintTop_toBottomOf="@id/duration"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DATE"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/maskImage" />
+
+    <TextView
+        android:id="@+id/pickDate"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/date"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        android:text="dates here"
+        android:background="@drawable/back"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TIME"
+        android:padding="10dp"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/pickDate" />
+
+    <Spinner
+        android:id="@+id/spinnerTime"
+        android:layout_width="300dp"
+        android:background="@drawable/back"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/time"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/tickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="# of tickets"
+        android:padding="10dp"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline"
+        app:layout_constraintTop_toBottomOf="@id/spinnerTime" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tickets"
+        app:layout_constraintLeft_toRightOf="@id/guideline"
+        android:text="+"/>
+
+    <TextView
+        android:id="@+id/numofTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toRightOf="@id/plus"
+        app:layout_constraintTop_toBottomOf="@id/tickets"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tickets"
+        app:layout_constraintLeft_toRightOf="@id/numofTickets"
+        android:text="-"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="10dp"
+        android:text="submit"/>
+
+</android.support.constraint.ConstraintLayout>
